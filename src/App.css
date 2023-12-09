@@ -1,0 +1,115 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+
+  * {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #4F7CAC;
+}
+
+.App {
+  margin: 20px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;  
+  color:white;
+  height: 100%;
+}
+
+.rock, 
+.paper, 
+.scissors {
+  font-family: 'Fredericka the Great', serif;
+  font-weight: 900;
+  font-size: 100px;
+}
+
+.rock {
+  color: #E2ACDF;
+  font-size: 30px;
+}
+
+.paper {
+  color: #9BBE96;
+  font-size: 60px;
+}
+
+.scissors { 
+  color: #FEF1BD;
+  font-size: 90px;
+  margin-top: -20px;
+}
+
+.score { 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.choice {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.system_hand, 
+.user_hand {
+  width: 250px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.button {
+  align-self: center;
+  background-color: #d8d8d835;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Nunito', sans-serif;  
+  font-size: 20px;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.681) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button:focus {
+  box-shadow: rgb(0, 0, 0) 2px 8px 4px -6px;
+}
+
+.result {
+  padding: 40px;
+  margin-bottom: -30px;
+
+}
+
